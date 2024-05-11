@@ -1,0 +1,38 @@
+.sl-no, .names, .followers{
+  font-family: "Poppins", sans-serif;
+}
+.table{
+  display: grid;
+  grid-template-columns: 20px 50px 1fr 100px;
+    border: 2px solid #6800FF;
+    margin: 10px 10px;
+
+}
+.sl-no{
+  grid-column: 2/3;
+  align-self: center;
+justify-self: center;
+}
+.names{
+  grid-column: 3/4;
+  align-self: center;
+  justify-self: center; 
+}
+.followers{
+  grid-column: 4/5;
+  align-self: center;
+  justify-self: center; 
+}
+a{
+  text-decoration: none;
+  color: #7A00FF;
+}
+a:hover{
+  text-decoration: underline;
+}
+/*.names-1, .names-2, .names-3{
+ 
+  justify-self: center;
+  text-align: left;
+  
+}*/

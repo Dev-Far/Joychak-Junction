@@ -1,0 +1,197 @@
+/*_______________NAVBAR CSS_______________*/
+/*________MAIN CSS_______________________*/
+@import url('https://fonts.googleapis.com/css2?family=Signika:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Signika:wght@300..700&family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Signika:wght@300..700&family=Teachers:ital,wght@0,400..800;1,400..800&family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&display=swap');
+*{
+  margin: 0px;
+  padding: 0px;
+}
+.Name {
+    font-family: "Teachers", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  grid-row: 3/4;
+  grid-column: 1/4;
+  align-self: center;
+  padding: 2px 10px;
+  /*
+  font-family: "Signika", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-variation-settings:
+    "GRAD" 0;
+    */
+}
+.chc{
+  font-family: "Varela", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+main{
+  display: grid;
+  grid-template-rows: 90px 65px 45px 20px 26px 75px;
+  grid-template-columns: 150px 2fr 2fr;
+  user-select: none;
+}
+.pp{
+  align-self: center;
+  justify-self: center;
+  grid-row: 1/3;
+  grid-column: 1/2;
+}
+.pp img{
+  border-radius: 100px;
+}
+.id{
+  grid-row: 5/6;
+  grid-column: 1/2;
+  padding: 2px 10px;
+  align-self: center;
+}
+.about{
+  grid-row: 5/6;
+  grid-column: 3/4;
+  align-self: center;
+  justify-self: center;
+}
+.bio {
+  font-family: "Radio Canada Big", sans-serif;
+  font-weight: 200;
+  grid-row: 6/7;
+  grid-column: 1/4;
+  padding: 2px 10px;
+  justify-content: center;
+  align-self: start;
+}
+.username a{
+  text-decoration: none;
+  color: #5A68FF;
+  grid-row: 4/5;
+
+  grid-column: 1/2;
+  
+}
+.username a:hover{
+  text-decoration: underline;
+}
+.followers{
+  grid-row: 2/3;
+  grid-column: 2/3;
+  align-self: start;
+  justify-self: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+}
+.followers-no{
+  grid-row: 1/2;
+  grid-column: 2/3;
+  align-self: end;
+  justify-self: center;
+  font-family: "Teachers", sans-serif;
+}
+.likes{
+  grid-row: 2/3;
+  grid-column: 3/4;
+  align-self: start;
+  justify-self: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+}
+.likes-no{
+  grid-row: 1/2;
+  grid-column: 3/4;
+  align-self: end;
+  justify-self: center;
+  font-family: "Teachers", sans-serif;
+}
+#male-icon {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+  ;
+  color: #00BFFF;
+  grid-column: 3/4;
+  grid-row: 4/5;
+  align-self: end;
+}
+#femal-icon {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+  ;
+  color: #00BFFF;
+  grid-column: 3/4;
+  grid-row: 4/5;
+  align-self: end;
+}
+.main-body{
+  display: grid;
+  grid-template-columns: 10px 1fr 1fr 10px;
+  grid-template-rows: 40px 120px;
+}
+.upload-btn{
+  grid-row: 1/2;
+  grid-column: 3/4;
+  align-self: center;
+  justify-self: center;
+}
+.message-p{
+  grid-row: 1/2;
+  grid-column: 2/3;
+  align-self: center;
+  justify-self: center;
+}
+.message-p a{
+  color: #FFFFFF;
+  background: #8B07FF;
+  padding: 10px 54px;
+  text-decoration: none;
+  font-family: "Varela", sans-serif;
+  border: 3px solid #D4A3FF;
+  border-radius: 8px;
+}
+.upload-btn a {
+  color: #FFFFFF;
+  background: #8B07FF;
+  padding: 10px 59px;
+  text-decoration: none;
+  font-family: "Varela", sans-serif;
+  border: 3px solid #D4A3FF;
+  border-radius: 8px;
+}
+@media screen and (min-width: 800px) {
+  .message-p a{
+    padding: 10px 20vw;
+  }
+  .upload-btn a{
+    padding: 10px 20vw;
+  }
+}
+.border-img{
+  z-index: -1;
+  position: absolute;
+  align-self: center;
+  justify-self: center;
+  top: 105px;
+  left: 19px;
+  grid-row: 1/3;
+  grid-column: 1/3;
+    animation: rotate 5s ease infinite 0s alternate;
+}
+@keyframes rotate{
+  from{
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(1200deg);
+  }
+}
