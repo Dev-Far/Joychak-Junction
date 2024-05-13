@@ -103,6 +103,7 @@ footer{
   width: 370px;
   margin:  2px auto;
   text-align: center;
+  font-family: "Poppins", sans-serif;
 }
 .iframes{
   display: flex;
