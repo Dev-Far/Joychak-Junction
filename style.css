@@ -104,3 +104,11 @@ footer{
   margin:  2px auto;
   text-align: center;
 }
+.iframes{
+  display: flex;
+  font-family: "Poppins", sans-serif;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
