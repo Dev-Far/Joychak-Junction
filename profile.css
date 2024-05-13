@@ -195,3 +195,9 @@ main{
     transform: rotate(1200deg);
   }
 }
+@media screen and (min-width: 800px) {
+  .border-img{
+    position: absolute;
+    top: 70px;
+  }
+}
